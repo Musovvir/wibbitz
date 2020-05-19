@@ -1,0 +1,48 @@
+.container {
+  max-width: 1024px;
+  margin-bottom: 60px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.cont-1 {
+  justify-content: center;
+  font-size: .8em;
+  position: relative;
+}
+
+.foot-1 {
+  display: flex;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  right: -200px;
+}
+
+.icon-1 {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: grey;
+  background-color: #e9ecef;
+  margin: 0 5px 10px 5px;
+  border-radius: 14px;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 1024px;
+    margin-bottom: 0;
+    font-family: 'Prompt', sans-serif;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .cont-1 {
+    font-size: .6em;
+  }
+}

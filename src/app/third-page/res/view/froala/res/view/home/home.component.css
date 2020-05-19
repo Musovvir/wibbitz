@@ -1,0 +1,49 @@
+.container {
+  max-width: 1024px;
+  margin-bottom: 60px;
+}
+
+.home {
+  position: relative;
+  text-align: left;
+}
+
+.link {
+  position: absolute;
+  top: -5px;
+  left: 45px;
+}
+
+.all {
+  text-align: right;
+  cursor: pointer;
+}
+
+.item-home {
+  opacity: .7;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slash {
+  opacity: .6;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.item-editor {
+  display: inline-block;
+}
+
+.item-home:hover {
+  color: dodgerblue;
+}
+
+.all, .all-1, .all-2, .all-3 {
+  cursor: pointer;
+}
+
+.fa {
+  font-size: .3em;
+  margin: 0 4px;
+}

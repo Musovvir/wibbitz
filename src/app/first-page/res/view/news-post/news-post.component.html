@@ -1,0 +1,41 @@
+<div class="container1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="cont-1">
+          <img src="https://via.placeholder.com/560x380?text=Visit" class="phone" alt="">
+          <span class="text-1">
+            <b>Blog Post</b>
+          </span>
+          <div class="text-2">
+            <b>How to optimize your Facebook & Instagram video ads for success</b>
+          </div>
+          <div class="text-3">
+            Instagram and Facebook video ads are extremely popular among marketers these days. Not only are
+            they more engaging and entertaining, they`re loved by many ...
+          </div>
+          <button class="btn cont-btn">
+            Read Story
+          </button>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="cont-2">
+          <div class="link">
+            <li class="list-unstyled">
+              <a routerLink="/second" routerLinkActive="active">Следующая страница</a>
+            </li>
+          </div>
+          <app-sidebar
+            *ngFor="let item of getSidebar()"
+            [image]="item.image"
+            [title]="item.title"
+            [text]="item.text"
+            [read]="item.read"
+          >
+          </app-sidebar>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

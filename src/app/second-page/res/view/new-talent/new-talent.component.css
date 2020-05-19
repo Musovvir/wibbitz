@@ -1,0 +1,45 @@
+.container {
+  max-width: 1024px;
+  margin-bottom: 60px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.text-1 {
+  font-size: .8em;
+  margin: 20px 0 20px 0;
+}
+
+.text-2 {
+  font-size: .9em;
+  border-left: 3px solid black;
+  padding-left: 40px;
+}
+
+.image {
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-bottom: 30px;
+  }
+  .cont-6 {
+    font-size: .6em;
+  }
+
+  .image {
+    margin-top: 10px;
+    width: 370px;
+    height: 180px;
+  }
+
+  .title, h4 {
+    font-size: 1.5em;
+  }
+
+  .text-2 {
+    padding-left: 20px;
+  }
+
+}

@@ -1,0 +1,8 @@
+<app-home></app-home>
+<app-news *ngFor="let item of getNews()"
+[image]="item.image"
+[title]="item.title"
+[text]="item.text"
+[name]="item.name"
+[date]="item.date">
+</app-news>

@@ -1,0 +1,21 @@
+<div class="container-3">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="new">
+          New Blog Posts
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of getNewBlogPosts()">
+        <app-item-blog
+        [image]="item.image"
+        [title]="item.title"
+        [text]="item.text"
+        [read]="item.read">
+        </app-item-blog>
+      </div>
+    </div>
+  </div>
+</div>

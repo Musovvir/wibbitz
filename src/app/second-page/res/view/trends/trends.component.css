@@ -1,0 +1,70 @@
+.container {
+  max-width: 1024px;
+  margin-bottom: 60px;
+}
+
+.text-1 {
+  color: dodgerblue;
+  text-align: center;
+  margin: 80px 0 10px 0;
+  position: relative;
+}
+
+.text-2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.text-3 {
+  font-size: .9em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link {
+  position: absolute;
+  top: -75px;
+  left: 0;
+}
+
+.link-2 {
+  position: absolute;
+  top: -75px;
+  right: 0;
+}
+
+.oct {
+  opacity: .6;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-bottom: 30px;
+  }
+
+  .text-1 {
+    margin: 40px 0 10px 0;
+  }
+
+  .text-2 {
+    font-size: 1.8em;
+  }
+
+  .text-3 {
+    font-size: .7em;
+  }
+
+  .image {
+    text-align: center;
+    margin-top: 15px;
+    width: 370px;
+    height: 200px;
+  }
+}
